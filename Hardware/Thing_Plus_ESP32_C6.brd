@@ -1041,45 +1041,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.441425" y="0.1238375"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-S">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+<package name="OSHW-LOGO-M">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
 <package name="ORDERING_INSTRUCTIONS">
@@ -1096,6 +1096,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -1652,6 +1659,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 <package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
 <wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
@@ -1761,6 +1782,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
 <package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
@@ -13793,7 +13819,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="11.43" y="54.229" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="4.445" y="4.953" smashed="yes"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="10.16" y="40.005" smashed="yes" rot="MR0"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="5.08" y="19.685" smashed="yes" rot="MR0"/>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="100k" x="7.62" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="8.182" y="40.64" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07828" x="7.62" y="40.64" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
@@ -14045,7 +14071,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$53" library="output" package="PWR0" value="" x="8.255" y="32.258" smashed="yes"/>
 <element name="U$54" library="output" package="CHG0" value="" x="14.859" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$55" library="output" package="STAT0" value="" x="15.24" y="32.258" smashed="yes"/>
-<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.018" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="14.732" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -14058,6 +14084,18 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$57" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="34.29" y="50.8" smashed="yes"/>
 <element name="U$58" library="output" package="#RGB_#0" value="" x="21.336" y="19.05" smashed="yes"/>
 <element name="U$59" library="output" package="#_RGB#0" value="" x="21.336" y="19.05" smashed="yes" rot="MR0"/>
+<element name="H3" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="2.54" y="55.88" smashed="yes">
+<attribute name="NAME" x="2.54" y="57.912" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="2.54" y="53.848" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H4" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="20.32" y="55.88" smashed="yes">
+<attribute name="NAME" x="20.32" y="57.912" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="20.32" y="53.848" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="22.225" y="53.975" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="22.225" y="53.975" smashed="yes" rot="MR0"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.635" y="4.445" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.635" y="4.445" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="USB_N" class="1">
@@ -14268,7 +14306,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="22.225" y="4.445" extent="1-16" drill="0.3048"/>
 <via x="18.415" y="0.635" extent="1-16" drill="0.3048"/>
 <via x="4.445" y="0.635" extent="1-16" drill="0.3048"/>
-<via x="0.635" y="4.445" extent="1-16" drill="0.3048"/>
+<via x="1.524" y="4.826" extent="1-16" drill="0.3048"/>
 <via x="0.635" y="22.606" extent="1-16" drill="0.3048"/>
 <via x="8.255" y="24.765" extent="1-16" drill="0.3048"/>
 <via x="3.175" y="30.48" extent="1-16" drill="0.3048"/>
@@ -14940,8 +14978,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <signal name="LED_DO">
 <contactref element="J1" pad="26"/>
 <contactref element="RGB" pad="1"/>
-<wire x1="15.875" y1="27.4193" x2="17.0307" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="17.0307" y1="27.4193" x2="17.78" y2="26.67" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="27.5336" x2="16.9164" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="16.9164" y1="27.5336" x2="17.78" y2="26.67" width="0.1778" layer="16"/>
 <wire x1="17.78" y1="26.67" x2="17.78" y2="24.13" width="0.1778" layer="16"/>
 <wire x1="17.78" y1="24.13" x2="18.415" y2="23.495" width="0.1778" layer="16"/>
 <wire x1="18.415" y1="23.495" x2="18.415" y2="22.86" width="0.1778" layer="16"/>
@@ -14956,8 +14994,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="16.155" y1="29.93" x2="16.425" y2="29.93" width="0.1778" layer="1"/>
 <wire x1="16.425" y1="29.93" x2="17.145" y2="29.21" width="0.1778" layer="1"/>
 <via x="17.145" y="29.21" extent="1-16" drill="0.3048"/>
-<wire x1="17.145" y1="28.7147" x2="16.891" y2="28.4607" width="0.1778" layer="16"/>
-<wire x1="15.875" y1="28.4607" x2="16.891" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="17.145" y1="28.7147" x2="16.7767" y2="28.3464" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="28.3464" x2="16.7767" y2="28.3464" width="0.1778" layer="16"/>
 <wire x1="17.145" y1="28.7147" x2="17.145" y2="29.21" width="0.1778" layer="16"/>
 </signal>
 </signals>
@@ -14975,9 +15013,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="5,16,7c91fe16827202b4"/>
 <approved hash="19,1,1c27cbaaea740955"/>
 <approved hash="19,16,85722920b0bbb461"/>
-<approved hash="19,16,ed0e1bc1ce7930b6"/>
-<approved hash="19,16,a10465a7d34f9974"/>
-<approved hash="19,16,8258dcee654476a5"/>
 <approved hash="6,16,6a52a2ffdef6d1a6"/>
 <approved hash="6,16,6a52a2ffdef6d1a6"/>
 <approved hash="5,16,9e401bbbbf3efac6"/>
@@ -14990,12 +15025,15 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="5,16,c8394bbe379bb65d"/>
 <approved hash="5,16,936c1071ec4d6c90"/>
 <approved hash="5,16,0f457321f8e786c2"/>
-<approved hash="19,16,2ee924a368c5eb98"/>
 <approved hash="19,16,e19239c52f7b38d4"/>
-<approved hash="19,16,30e50a9ba2ab369d"/>
 <approved hash="19,16,0a2cc1e7ebd65b8d"/>
 <approved hash="23,1,4b5efb1ee3495309"/>
 <approved hash="23,1,d43064706429d469"/>
+<approved hash="19,16,aaf90d0049a2674c"/>
+<approved hash="19,16,47e4bcc7649397b0"/>
+<approved hash="19,16,2c18a158b9a79aaf"/>
+<approved hash="19,16,dde7eb12afac17c1"/>
+<approved hash="19,16,ea44334120a3b4f1"/>
 </errors>
 </board>
 </drawing>
