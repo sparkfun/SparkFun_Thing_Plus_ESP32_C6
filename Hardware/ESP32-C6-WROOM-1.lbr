@@ -429,7 +429,9 @@ Float</text>
 <connect gate="G$1" pin="XTAL_32K_P/IO0" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-19032"/>
+</technology>
 </technologies>
 </device>
 </devices>

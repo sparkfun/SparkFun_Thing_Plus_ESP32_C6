@@ -22165,7 +22165,9 @@ Float</text>
 <connect gate="G$1" pin="XTAL_32K_P/IO0" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-19032"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -27631,7 +27633,7 @@ total board
 current</text>
 <text x="119.38" y="172.72" size="1.778" layer="97" font="vector" align="center">Voltage Input Max: 5.5V
 Current Max: 600mA</text>
-<text x="200.66" y="101.6" size="1.778" layer="97" font="vector" align="center">Cut SD_DET jumper to disable
+<text x="198.12" y="101.6" size="1.778" layer="97" font="vector" align="center">Cut SD_DET jumper to disable
 uSD card insertion detection</text>
 <text x="182.88" y="83.82" size="1.778" layer="97" font="vector" align="center">Close RGB jumper to
 enable data output
