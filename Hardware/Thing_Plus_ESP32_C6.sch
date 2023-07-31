@@ -27330,7 +27330,7 @@ SMD LED with built-in controller IC.
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="Dryw Wade"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="U1" library="ESP32-C6-WROOM-1" deviceset="ESP32-C6-WROOM-1" device="-NARROW" value="ESP32-C6-WROOM-1-NARROW"/>
 <part name="J1" library="SparkFun-Boards" deviceset="THING_PLUS_LOGICAL" device=""/>
