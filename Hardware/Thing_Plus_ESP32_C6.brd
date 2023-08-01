@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -245,16 +245,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CREATIVE_COMMONS">
-<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
-&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
-&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
-</package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
 <description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.1" Height - Silkscreen&lt;/h3&gt;
 &lt;p&gt;SparkFun font logo with flame logo&lt;/p&gt;
@@ -1115,6 +1105,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="CREATIVE_COMMONS">
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 </packages>
 </library>
@@ -14641,10 +14641,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-11.43" y="-25.4" smashed="yes">
-<attribute name="DESIGNER" value="Dryw Wade" x="-11.43" y="-25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="v10" x="-11.43" y="-25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 <element name="U1" library="ESP32-C6-WROOM-1" package="ESP32-C6-WROOM-1-NARROW" value="ESP32-C6-WROOM-1-NARROW" x="11.43" y="45.72" smashed="yes">
 <attribute name="NAME" x="11.43" y="59.22" size="0.6096" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PROD_ID" value="IC-19032" x="11.43" y="45.72" size="1.778" layer="27" display="off"/>
@@ -14965,6 +14961,10 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <attribute name="NAME" x="10.16" y="39.878" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07828" x="10.16" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="10.16" y="41.402" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+</element>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-2.54" y="-34.29" smashed="yes">
+<attribute name="DESIGNER" value="Dryw Wade" x="-2.54" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v10" x="-2.54" y="-34.29" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -15580,8 +15580,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="ALRT" pad="2"/>
 <wire x1="7.62" y1="39.8907" x2="6.6167" y2="39.8907" width="0.1778" layer="16"/>
 <via x="5.08" y="38.1" extent="1-16" drill="0.3048"/>
-<wire x1="6.6167" y1="39.8907" x2="5.08" y2="38.354" width="0.1778" layer="16"/>
-<wire x1="5.08" y1="38.354" x2="5.08" y2="38.1" width="0.1778" layer="16"/>
+<wire x1="6.6167" y1="39.8907" x2="5.969" y2="39.243" width="0.1778" layer="16"/>
+<wire x1="5.969" y1="39.243" x2="5.969" y2="38.989" width="0.1778" layer="16"/>
+<wire x1="5.969" y1="38.989" x2="5.08" y2="38.1" width="0.1778" layer="16"/>
 <wire x1="3.18" y1="37.01" x2="4.625" y2="37.01" width="0.1778" layer="1"/>
 <wire x1="5.08" y1="37.465" x2="5.08" y2="38.1" width="0.1778" layer="1"/>
 <wire x1="5.08" y1="37.465" x2="4.625" y2="37.01" width="0.1778" layer="1"/>
@@ -16002,11 +16003,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="23,1,066234aa34800648"/>
 <approved hash="23,1,4e7f7cb77eb74c7f"/>
 <approved hash="19,16,f6d504f5b2856c9f"/>
-<approved hash="19,16,971280a2a7bb1883"/>
 <approved hash="19,16,8258dcee654476a5"/>
 <approved hash="19,16,799a0e74108fa899"/>
 <approved hash="19,16,ba2e6542c4c6c025"/>
-<approved hash="19,16,bfbc1b21c23a7d60"/>
 <approved hash="19,16,c511735251a04947"/>
 <approved hash="19,16,8147e5a0b9cb2572"/>
 <approved hash="19,16,422e6ce2f190aecf"/>
@@ -16014,8 +16013,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="6,16,1ff81ef63ed63fd8"/>
 <approved hash="6,16,1b361a7474547516"/>
 <approved hash="6,16,1b361a7474547516"/>
-<approved hash="5,16,06f0fd802105a377"/>
 <approved hash="19,1,15a657791a9b56be"/>
+<approved hash="19,16,c2a3e080c10ef8ea"/>
+<approved hash="19,16,85722920b0bbb461"/>
 </errors>
 </board>
 </drawing>
