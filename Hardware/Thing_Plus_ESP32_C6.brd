@@ -3,14 +3,14 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="11" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1671,6 +1671,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 <package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
 <wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
@@ -1813,6 +1827,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
 <package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
@@ -14898,7 +14917,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$53" library="output" package="PWR0" value="" x="8.255" y="32.258" smashed="yes"/>
 <element name="U$54" library="output" package="CHG0" value="" x="14.859" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$55" library="output" package="STAT0" value="" x="15.24" y="32.258" smashed="yes"/>
-<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.018" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="14.732" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -15719,8 +15738,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="18.415" y1="20.32" x2="18.415" y2="19.685" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="19.05" x2="21.59" y2="19.05" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="19.05" x2="18.415" y2="19.685" width="0.1778" layer="15"/>
-<wire x1="16.9037" y1="27.4193" x2="15.875" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="17.78" y1="26.543" x2="16.9037" y2="27.4193" width="0.1778" layer="16"/>
+<wire x1="16.7894" y1="27.5336" x2="15.875" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="17.78" y1="26.543" x2="16.7894" y2="27.5336" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="RGB" pad="2"/>
@@ -15729,7 +15748,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="15.325" y1="29.93" x2="15.24" y2="29.845" width="0.1778" layer="1"/>
 <via x="15.24" y="29.845" extent="1-16" drill="0.3048"/>
 <wire x1="15.24" y1="29.845" x2="15.875" y2="29.21" width="0.1778" layer="16"/>
-<wire x1="15.875" y1="29.21" x2="15.875" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="29.21" x2="15.875" y2="28.3464" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$16">
 <contactref element="R13" pad="1"/>
@@ -15991,7 +16010,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="5,16,0f457321f8e786c2"/>
 <approved hash="23,1,4b5efb1ee3495309"/>
 <approved hash="23,1,d43064706429d469"/>
-<approved hash="19,16,47e4bcc7649397b0"/>
 <approved hash="7,39,85149d0b94568bb3"/>
 <approved hash="7,39,d2beadc476c40fbf"/>
 <approved hash="6,16,6e53ddfbe3752027"/>
@@ -16005,17 +16023,17 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="19,16,f6d504f5b2856c9f"/>
 <approved hash="19,16,8258dcee654476a5"/>
 <approved hash="19,16,799a0e74108fa899"/>
-<approved hash="19,16,ba2e6542c4c6c025"/>
-<approved hash="19,16,c511735251a04947"/>
-<approved hash="19,16,8147e5a0b9cb2572"/>
 <approved hash="19,16,422e6ce2f190aecf"/>
 <approved hash="6,16,1ff81ef63ed63fd8"/>
 <approved hash="6,16,1ff81ef63ed63fd8"/>
 <approved hash="6,16,1b361a7474547516"/>
 <approved hash="6,16,1b361a7474547516"/>
 <approved hash="19,1,15a657791a9b56be"/>
-<approved hash="19,16,c2a3e080c10ef8ea"/>
-<approved hash="19,16,85722920b0bbb461"/>
+<approved hash="19,16,4ff41936ce2b4366"/>
+<approved hash="19,16,bfbc1b21c23a7d60"/>
+<approved hash="19,16,ed0e1bc1ce7930b6"/>
+<approved hash="19,16,03ee9c9d5ea76f70"/>
+<approved hash="19,16,3520ab120dac6bc0"/>
 </errors>
 </board>
 </drawing>
