@@ -2058,6 +2058,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 <package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
 <wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
@@ -2200,6 +2214,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
 <package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
@@ -15306,7 +15325,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$53" library="output" package="PWR0" value="" x="8.255" y="32.258" smashed="yes"/>
 <element name="U$54" library="output" package="CHG0" value="" x="14.859" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$55" library="output" package="STAT0" value="" x="15.24" y="32.258" smashed="yes"/>
-<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="15.875" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.018" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="14.732" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -15626,7 +15645,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$110" library="output" package="PWR0" value="" x="31.623" y="32.258" smashed="yes"/>
 <element name="U$111" library="output" package="CHG0" value="" x="38.227" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$112" library="output" package="STAT0" value="" x="38.608" y="32.258" smashed="yes"/>
-<element name="RGB1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="39.243" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="39.243" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="40.386" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="38.1" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -15946,7 +15965,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$173" library="output" package="PWR0" value="" x="54.991" y="32.258" smashed="yes"/>
 <element name="U$174" library="output" package="CHG0" value="" x="61.595" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$175" library="output" package="STAT0" value="" x="61.976" y="32.258" smashed="yes"/>
-<element name="RGB2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="62.611" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="62.611" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63.754" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="61.468" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -16266,7 +16285,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$236" library="output" package="PWR0" value="" x="78.359" y="32.258" smashed="yes"/>
 <element name="U$237" library="output" package="CHG0" value="" x="84.963" y="22.86" smashed="yes" rot="R90"/>
 <element name="U$238" library="output" package="STAT0" value="" x="85.344" y="32.258" smashed="yes"/>
-<element name="RGB3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="85.979" y="27.94" smashed="yes" rot="MR90">
+<element name="RGB3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="85.979" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="87.122" y="27.94" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="84.836" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -16586,7 +16605,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$299" library="output" package="PWR0" value="" x="8.255" y="93.726" smashed="yes"/>
 <element name="U$300" library="output" package="CHG0" value="" x="14.859" y="84.328" smashed="yes" rot="R90"/>
 <element name="U$301" library="output" package="STAT0" value="" x="15.24" y="93.726" smashed="yes"/>
-<element name="RGB4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="15.875" y="89.408" smashed="yes" rot="MR90">
+<element name="RGB4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="15.875" y="89.408" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.018" y="89.408" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="14.732" y="89.408" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -16906,7 +16925,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$362" library="output" package="PWR0" value="" x="31.623" y="93.726" smashed="yes"/>
 <element name="U$363" library="output" package="CHG0" value="" x="38.227" y="84.328" smashed="yes" rot="R90"/>
 <element name="U$364" library="output" package="STAT0" value="" x="38.608" y="93.726" smashed="yes"/>
-<element name="RGB5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="39.243" y="89.408" smashed="yes" rot="MR90">
+<element name="RGB5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="39.243" y="89.408" smashed="yes" rot="MR90">
 <attribute name="NAME" x="40.386" y="89.408" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="38.1" y="89.408" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -17226,7 +17245,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$425" library="output" package="PWR0" value="" x="54.991" y="93.726" smashed="yes"/>
 <element name="U$426" library="output" package="CHG0" value="" x="61.595" y="84.328" smashed="yes" rot="R90"/>
 <element name="U$427" library="output" package="STAT0" value="" x="61.976" y="93.726" smashed="yes"/>
-<element name="RGB6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="62.611" y="89.408" smashed="yes" rot="MR90">
+<element name="RGB6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="62.611" y="89.408" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63.754" y="89.408" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="61.468" y="89.408" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -17546,7 +17565,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$488" library="output" package="PWR0" value="" x="78.359" y="93.726" smashed="yes"/>
 <element name="U$489" library="output" package="CHG0" value="" x="84.963" y="84.328" smashed="yes" rot="R90"/>
 <element name="U$490" library="output" package="STAT0" value="" x="85.344" y="93.726" smashed="yes"/>
-<element name="RGB7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="85.979" y="89.408" smashed="yes" rot="MR90">
+<element name="RGB7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="85.979" y="89.408" smashed="yes" rot="MR90">
 <attribute name="NAME" x="87.122" y="89.408" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="84.836" y="89.408" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -17866,7 +17885,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$551" library="output" package="PWR0" value="" x="8.255" y="155.194" smashed="yes"/>
 <element name="U$552" library="output" package="CHG0" value="" x="14.859" y="145.796" smashed="yes" rot="R90"/>
 <element name="U$553" library="output" package="STAT0" value="" x="15.24" y="155.194" smashed="yes"/>
-<element name="RGB8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="15.875" y="150.876" smashed="yes" rot="MR90">
+<element name="RGB8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="15.875" y="150.876" smashed="yes" rot="MR90">
 <attribute name="NAME" x="17.018" y="150.876" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="14.732" y="150.876" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -18186,7 +18205,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$614" library="output" package="PWR0" value="" x="31.623" y="155.194" smashed="yes"/>
 <element name="U$615" library="output" package="CHG0" value="" x="38.227" y="145.796" smashed="yes" rot="R90"/>
 <element name="U$616" library="output" package="STAT0" value="" x="38.608" y="155.194" smashed="yes"/>
-<element name="RGB9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="39.243" y="150.876" smashed="yes" rot="MR90">
+<element name="RGB9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="39.243" y="150.876" smashed="yes" rot="MR90">
 <attribute name="NAME" x="40.386" y="150.876" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="38.1" y="150.876" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -18506,7 +18525,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$677" library="output" package="PWR0" value="" x="54.991" y="155.194" smashed="yes"/>
 <element name="U$678" library="output" package="CHG0" value="" x="61.595" y="145.796" smashed="yes" rot="R90"/>
 <element name="U$679" library="output" package="STAT0" value="" x="61.976" y="155.194" smashed="yes"/>
-<element name="RGB10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="62.611" y="150.876" smashed="yes" rot="MR90">
+<element name="RGB10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="62.611" y="150.876" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63.754" y="150.876" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="61.468" y="150.876" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -18826,7 +18845,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="U$740" library="output" package="PWR0" value="" x="78.359" y="155.194" smashed="yes"/>
 <element name="U$741" library="output" package="CHG0" value="" x="84.963" y="145.796" smashed="yes" rot="R90"/>
 <element name="U$742" library="output" package="STAT0" value="" x="85.344" y="155.194" smashed="yes"/>
-<element name="RGB11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="85.979" y="150.876" smashed="yes" rot="MR90">
+<element name="RGB11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="85.979" y="150.876" smashed="yes" rot="MR90">
 <attribute name="NAME" x="87.122" y="150.876" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="84.836" y="150.876" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
@@ -19757,8 +19776,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="18.415" y1="20.32" x2="18.415" y2="19.685" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="19.05" x2="21.59" y2="19.05" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="19.05" x2="18.415" y2="19.685" width="0.1778" layer="15"/>
-<wire x1="16.9037" y1="27.4193" x2="15.875" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="17.78" y1="26.543" x2="16.9037" y2="27.4193" width="0.1778" layer="16"/>
+<wire x1="16.7894" y1="27.5336" x2="15.875" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="17.78" y1="26.543" x2="16.7894" y2="27.5336" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="RGB" pad="2"/>
@@ -19767,7 +19786,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="15.325" y1="29.93" x2="15.24" y2="29.845" width="0.1778" layer="1"/>
 <via x="15.24" y="29.845" extent="1-16" drill="0.3048"/>
 <wire x1="15.24" y1="29.845" x2="15.875" y2="29.21" width="0.1778" layer="16"/>
-<wire x1="15.875" y1="29.21" x2="15.875" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="29.21" x2="15.875" y2="28.3464" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$16">
 <contactref element="R13" pad="1"/>
@@ -20873,8 +20892,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="41.783" y1="20.32" x2="41.783" y2="19.685" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="19.05" x2="44.958" y2="19.05" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="19.05" x2="41.783" y2="19.685" width="0.1778" layer="15"/>
-<wire x1="40.2717" y1="27.4193" x2="39.243" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="41.148" y1="26.543" x2="40.2717" y2="27.4193" width="0.1778" layer="16"/>
+<wire x1="40.1574" y1="27.5336" x2="39.243" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="41.148" y1="26.543" x2="40.1574" y2="27.5336" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$30">
 <contactref element="RGB1" pad="2"/>
@@ -20883,7 +20902,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="38.693" y1="29.93" x2="38.608" y2="29.845" width="0.1778" layer="1"/>
 <via x="38.608" y="29.845" extent="1-16" drill="0.3048"/>
 <wire x1="38.608" y1="29.845" x2="39.243" y2="29.21" width="0.1778" layer="16"/>
-<wire x1="39.243" y1="29.21" x2="39.243" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="39.243" y1="29.21" x2="39.243" y2="28.3464" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="R27" pad="1"/>
@@ -21989,8 +22008,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="65.151" y1="20.32" x2="65.151" y2="19.685" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="19.05" x2="68.326" y2="19.05" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="19.05" x2="65.151" y2="19.685" width="0.1778" layer="15"/>
-<wire x1="63.6397" y1="27.4193" x2="62.611" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="64.516" y1="26.543" x2="63.6397" y2="27.4193" width="0.1778" layer="16"/>
+<wire x1="63.5254" y1="27.5336" x2="62.611" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="64.516" y1="26.543" x2="63.5254" y2="27.5336" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$46">
 <contactref element="RGB2" pad="2"/>
@@ -21999,7 +22018,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="62.061" y1="29.93" x2="61.976" y2="29.845" width="0.1778" layer="1"/>
 <via x="61.976" y="29.845" extent="1-16" drill="0.3048"/>
 <wire x1="61.976" y1="29.845" x2="62.611" y2="29.21" width="0.1778" layer="16"/>
-<wire x1="62.611" y1="29.21" x2="62.611" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="62.611" y1="29.21" x2="62.611" y2="28.3464" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$47">
 <contactref element="R41" pad="1"/>
@@ -23105,8 +23124,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="88.519" y1="20.32" x2="88.519" y2="19.685" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="19.05" x2="91.694" y2="19.05" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="19.05" x2="88.519" y2="19.685" width="0.1778" layer="15"/>
-<wire x1="87.0077" y1="27.4193" x2="85.979" y2="27.4193" width="0.1778" layer="16"/>
-<wire x1="87.884" y1="26.543" x2="87.0077" y2="27.4193" width="0.1778" layer="16"/>
+<wire x1="86.8934" y1="27.5336" x2="85.979" y2="27.5336" width="0.1778" layer="16"/>
+<wire x1="87.884" y1="26.543" x2="86.8934" y2="27.5336" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$62">
 <contactref element="RGB3" pad="2"/>
@@ -23115,7 +23134,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="85.429" y1="29.93" x2="85.344" y2="29.845" width="0.1778" layer="1"/>
 <via x="85.344" y="29.845" extent="1-16" drill="0.3048"/>
 <wire x1="85.344" y1="29.845" x2="85.979" y2="29.21" width="0.1778" layer="16"/>
-<wire x1="85.979" y1="29.21" x2="85.979" y2="28.4607" width="0.1778" layer="16"/>
+<wire x1="85.979" y1="29.21" x2="85.979" y2="28.3464" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$63">
 <contactref element="R55" pad="1"/>
@@ -24221,8 +24240,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="18.415" y1="81.788" x2="18.415" y2="81.153" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="80.518" x2="21.59" y2="80.518" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="80.518" x2="18.415" y2="81.153" width="0.1778" layer="15"/>
-<wire x1="16.9037" y1="88.8873" x2="15.875" y2="88.8873" width="0.1778" layer="16"/>
-<wire x1="17.78" y1="88.011" x2="16.9037" y2="88.8873" width="0.1778" layer="16"/>
+<wire x1="16.7894" y1="89.0016" x2="15.875" y2="89.0016" width="0.1778" layer="16"/>
+<wire x1="17.78" y1="88.011" x2="16.7894" y2="89.0016" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$78">
 <contactref element="RGB4" pad="2"/>
@@ -24231,7 +24250,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="15.325" y1="91.398" x2="15.24" y2="91.313" width="0.1778" layer="1"/>
 <via x="15.24" y="91.313" extent="1-16" drill="0.3048"/>
 <wire x1="15.24" y1="91.313" x2="15.875" y2="90.678" width="0.1778" layer="16"/>
-<wire x1="15.875" y1="90.678" x2="15.875" y2="89.9287" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="90.678" x2="15.875" y2="89.8144" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$79">
 <contactref element="R69" pad="1"/>
@@ -25337,8 +25356,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="41.783" y1="81.788" x2="41.783" y2="81.153" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="80.518" x2="44.958" y2="80.518" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="80.518" x2="41.783" y2="81.153" width="0.1778" layer="15"/>
-<wire x1="40.2717" y1="88.8873" x2="39.243" y2="88.8873" width="0.1778" layer="16"/>
-<wire x1="41.148" y1="88.011" x2="40.2717" y2="88.8873" width="0.1778" layer="16"/>
+<wire x1="40.1574" y1="89.0016" x2="39.243" y2="89.0016" width="0.1778" layer="16"/>
+<wire x1="41.148" y1="88.011" x2="40.1574" y2="89.0016" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$94">
 <contactref element="RGB5" pad="2"/>
@@ -25347,7 +25366,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="38.693" y1="91.398" x2="38.608" y2="91.313" width="0.1778" layer="1"/>
 <via x="38.608" y="91.313" extent="1-16" drill="0.3048"/>
 <wire x1="38.608" y1="91.313" x2="39.243" y2="90.678" width="0.1778" layer="16"/>
-<wire x1="39.243" y1="90.678" x2="39.243" y2="89.9287" width="0.1778" layer="16"/>
+<wire x1="39.243" y1="90.678" x2="39.243" y2="89.8144" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$95">
 <contactref element="R83" pad="1"/>
@@ -26453,8 +26472,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="65.151" y1="81.788" x2="65.151" y2="81.153" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="80.518" x2="68.326" y2="80.518" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="80.518" x2="65.151" y2="81.153" width="0.1778" layer="15"/>
-<wire x1="63.6397" y1="88.8873" x2="62.611" y2="88.8873" width="0.1778" layer="16"/>
-<wire x1="64.516" y1="88.011" x2="63.6397" y2="88.8873" width="0.1778" layer="16"/>
+<wire x1="63.5254" y1="89.0016" x2="62.611" y2="89.0016" width="0.1778" layer="16"/>
+<wire x1="64.516" y1="88.011" x2="63.5254" y2="89.0016" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$110">
 <contactref element="RGB6" pad="2"/>
@@ -26463,7 +26482,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="62.061" y1="91.398" x2="61.976" y2="91.313" width="0.1778" layer="1"/>
 <via x="61.976" y="91.313" extent="1-16" drill="0.3048"/>
 <wire x1="61.976" y1="91.313" x2="62.611" y2="90.678" width="0.1778" layer="16"/>
-<wire x1="62.611" y1="90.678" x2="62.611" y2="89.9287" width="0.1778" layer="16"/>
+<wire x1="62.611" y1="90.678" x2="62.611" y2="89.8144" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$111">
 <contactref element="R97" pad="1"/>
@@ -27569,8 +27588,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="88.519" y1="81.788" x2="88.519" y2="81.153" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="80.518" x2="91.694" y2="80.518" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="80.518" x2="88.519" y2="81.153" width="0.1778" layer="15"/>
-<wire x1="87.0077" y1="88.8873" x2="85.979" y2="88.8873" width="0.1778" layer="16"/>
-<wire x1="87.884" y1="88.011" x2="87.0077" y2="88.8873" width="0.1778" layer="16"/>
+<wire x1="86.8934" y1="89.0016" x2="85.979" y2="89.0016" width="0.1778" layer="16"/>
+<wire x1="87.884" y1="88.011" x2="86.8934" y2="89.0016" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$126">
 <contactref element="RGB7" pad="2"/>
@@ -27579,7 +27598,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="85.429" y1="91.398" x2="85.344" y2="91.313" width="0.1778" layer="1"/>
 <via x="85.344" y="91.313" extent="1-16" drill="0.3048"/>
 <wire x1="85.344" y1="91.313" x2="85.979" y2="90.678" width="0.1778" layer="16"/>
-<wire x1="85.979" y1="90.678" x2="85.979" y2="89.9287" width="0.1778" layer="16"/>
+<wire x1="85.979" y1="90.678" x2="85.979" y2="89.8144" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$127">
 <contactref element="R111" pad="1"/>
@@ -28685,8 +28704,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="18.415" y1="143.256" x2="18.415" y2="142.621" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="141.986" x2="21.59" y2="141.986" width="0.1778" layer="15"/>
 <wire x1="19.05" y1="141.986" x2="18.415" y2="142.621" width="0.1778" layer="15"/>
-<wire x1="16.9037" y1="150.3553" x2="15.875" y2="150.3553" width="0.1778" layer="16"/>
-<wire x1="17.78" y1="149.479" x2="16.9037" y2="150.3553" width="0.1778" layer="16"/>
+<wire x1="16.7894" y1="150.4696" x2="15.875" y2="150.4696" width="0.1778" layer="16"/>
+<wire x1="17.78" y1="149.479" x2="16.7894" y2="150.4696" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$142">
 <contactref element="RGB8" pad="2"/>
@@ -28695,7 +28714,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="15.325" y1="152.866" x2="15.24" y2="152.781" width="0.1778" layer="1"/>
 <via x="15.24" y="152.781" extent="1-16" drill="0.3048"/>
 <wire x1="15.24" y1="152.781" x2="15.875" y2="152.146" width="0.1778" layer="16"/>
-<wire x1="15.875" y1="152.146" x2="15.875" y2="151.3967" width="0.1778" layer="16"/>
+<wire x1="15.875" y1="152.146" x2="15.875" y2="151.2824" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$143">
 <contactref element="R125" pad="1"/>
@@ -29801,8 +29820,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="41.783" y1="143.256" x2="41.783" y2="142.621" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="141.986" x2="44.958" y2="141.986" width="0.1778" layer="15"/>
 <wire x1="42.418" y1="141.986" x2="41.783" y2="142.621" width="0.1778" layer="15"/>
-<wire x1="40.2717" y1="150.3553" x2="39.243" y2="150.3553" width="0.1778" layer="16"/>
-<wire x1="41.148" y1="149.479" x2="40.2717" y2="150.3553" width="0.1778" layer="16"/>
+<wire x1="40.1574" y1="150.4696" x2="39.243" y2="150.4696" width="0.1778" layer="16"/>
+<wire x1="41.148" y1="149.479" x2="40.1574" y2="150.4696" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$158">
 <contactref element="RGB9" pad="2"/>
@@ -29811,7 +29830,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="38.693" y1="152.866" x2="38.608" y2="152.781" width="0.1778" layer="1"/>
 <via x="38.608" y="152.781" extent="1-16" drill="0.3048"/>
 <wire x1="38.608" y1="152.781" x2="39.243" y2="152.146" width="0.1778" layer="16"/>
-<wire x1="39.243" y1="152.146" x2="39.243" y2="151.3967" width="0.1778" layer="16"/>
+<wire x1="39.243" y1="152.146" x2="39.243" y2="151.2824" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$159">
 <contactref element="R139" pad="1"/>
@@ -30917,8 +30936,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="65.151" y1="143.256" x2="65.151" y2="142.621" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="141.986" x2="68.326" y2="141.986" width="0.1778" layer="15"/>
 <wire x1="65.786" y1="141.986" x2="65.151" y2="142.621" width="0.1778" layer="15"/>
-<wire x1="63.6397" y1="150.3553" x2="62.611" y2="150.3553" width="0.1778" layer="16"/>
-<wire x1="64.516" y1="149.479" x2="63.6397" y2="150.3553" width="0.1778" layer="16"/>
+<wire x1="63.5254" y1="150.4696" x2="62.611" y2="150.4696" width="0.1778" layer="16"/>
+<wire x1="64.516" y1="149.479" x2="63.5254" y2="150.4696" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$174">
 <contactref element="RGB10" pad="2"/>
@@ -30927,7 +30946,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="62.061" y1="152.866" x2="61.976" y2="152.781" width="0.1778" layer="1"/>
 <via x="61.976" y="152.781" extent="1-16" drill="0.3048"/>
 <wire x1="61.976" y1="152.781" x2="62.611" y2="152.146" width="0.1778" layer="16"/>
-<wire x1="62.611" y1="152.146" x2="62.611" y2="151.3967" width="0.1778" layer="16"/>
+<wire x1="62.611" y1="152.146" x2="62.611" y2="151.2824" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$175">
 <contactref element="R153" pad="1"/>
@@ -32033,8 +32052,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="88.519" y1="143.256" x2="88.519" y2="142.621" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="141.986" x2="91.694" y2="141.986" width="0.1778" layer="15"/>
 <wire x1="89.154" y1="141.986" x2="88.519" y2="142.621" width="0.1778" layer="15"/>
-<wire x1="87.0077" y1="150.3553" x2="85.979" y2="150.3553" width="0.1778" layer="16"/>
-<wire x1="87.884" y1="149.479" x2="87.0077" y2="150.3553" width="0.1778" layer="16"/>
+<wire x1="86.8934" y1="150.4696" x2="85.979" y2="150.4696" width="0.1778" layer="16"/>
+<wire x1="87.884" y1="149.479" x2="86.8934" y2="150.4696" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$190">
 <contactref element="RGB11" pad="2"/>
@@ -32043,7 +32062,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="85.429" y1="152.866" x2="85.344" y2="152.781" width="0.1778" layer="1"/>
 <via x="85.344" y="152.781" extent="1-16" drill="0.3048"/>
 <wire x1="85.344" y1="152.781" x2="85.979" y2="152.146" width="0.1778" layer="16"/>
-<wire x1="85.979" y1="152.146" x2="85.979" y2="151.3967" width="0.1778" layer="16"/>
+<wire x1="85.979" y1="152.146" x2="85.979" y2="151.2824" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$191">
 <contactref element="R167" pad="1"/>
