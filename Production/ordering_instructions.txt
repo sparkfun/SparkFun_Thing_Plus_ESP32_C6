@@ -1,4 +1,4 @@
-panel size, 84x73mm
+panel size, 107x201mm
 PCB thickness, 1.6mm
 number of layers, 4
 controlled impedance, JLC7628
@@ -7,7 +7,7 @@ silkscreen color, White
 oz copper, 1oz
 finish, HASL lead free
 stencils, top+bottom
-pcs per panel, 3
+pcs per panel, 12
 min trace width, 0.1778mm / 0.0070in
 min drill size, 0.3048mm / 0.0120in
 filename to layer stackup 1/2/3/4: GTL, GL2, GL3, GBL
