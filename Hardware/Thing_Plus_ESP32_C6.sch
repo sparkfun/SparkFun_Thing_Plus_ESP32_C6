@@ -27647,7 +27647,7 @@ total board current consumption</text>
 Current Max: 600mA</text>
 <text x="360.68" y="144.78" size="1.778" layer="97" font="vector" align="center">Cut SD_DET jumper to disable
 uSD card insertion detection</text>
-<text x="302.26" y="17.78" size="1.778" layer="97" font="vector" align="center">Cut RGB jumper to disconect
+<text x="302.26" y="17.78" size="1.778" layer="97" font="vector" align="center">Solder RGB jumper to connect
 data output to AREF/NC pin</text>
 <wire x1="228.6" y1="213.36" x2="330.2" y2="213.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="213.36" x2="431.8" y2="213.36" width="0.2032" layer="97" style="longdash"/>
