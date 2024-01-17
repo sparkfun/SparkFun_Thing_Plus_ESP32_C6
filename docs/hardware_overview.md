@@ -124,3 +124,7 @@ There are nine solder jumpers on the Thing Plus - ESP32-C6 labeled <b>I<sup>2</s
 ## Board Dimensions
 
 This board matches the Thing Plus footprint and measures 2.30" x 0.90" (58.42mm x 22.86mm) with four mounting holes that fit a [4-40 screw](https://www.sparkfun.com/products/10453).
+
+<figure markdown>
+[![Board dimensions.](./assets/board_files/Thing_Plus_ESP32_C6-Dimensions.png){ width="600"}](./assets/board_files/Thing_Plus_ESP32_C6-Dimensions.png "Click to enlarge")
+</figure>
