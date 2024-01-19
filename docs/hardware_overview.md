@@ -4,7 +4,9 @@ Let's take a closer look at the ESP32-C6 WROOM1 module and other hardware presen
 
 The ESP32-C6 WROOM1 module from espressif combines a powerful RISC-5 processor with a wireless stack compatible with most common wireless protocols.
 
-**Photo highlighting ESP32-C6**
+<figure markdown>
+[![Photo highlighting ESP32-C6 module.](./assets/img/Thing_Plus_C6-Module.jpg){ width="600"}](./assets/ "Click to enlarge")
+</figure>
 
 This development board uses the WROOM1 version of the C6 module which has slightly more computing power in exchange for lesser power efficiency. The ESP32-C6 features a 32-bit RISC-V single-core processor with an integrated wireless stack. The wireless stack is compatible with 2.4 GHz WiFi 6, Bluetooth<sup>&reg;</sup> 5.3, Zigbee and Thread (802.15.4) and uses an on-board PCB antenna. 
 
@@ -21,7 +23,9 @@ The ESP32-C6 has 16 MB Flash memory along with 512 KB SRAM (high power)/ 16 KB S
 
 The Thing Plus ESP32-C6 includes several options for powering including USB-C, LiPo battery with on-board battery charging and monitoring circuits as well as direct power inputs.
 
-**Photo highlighting power components**
+<figure markdown>
+[![Photo highlighting power components/pins.](./assets/Thing_Plus_C6-Power){ width="600"}](./assets/ "Click to enlarge")
+</figure>
 
 ### USB-C Connector
 
@@ -32,6 +36,10 @@ The USB-C connector on the board acts as the primary serial interface for the ES
 The board has a 2-pin JST connector to connect a single-cell Lithium Ion (LiPo) battery for battery-powered applications. It also has an MCP73831 battery charger to charge an attached battery and a MAX17048 fuel gauge to monitor battery voltage levels. The charge rate is set to <b>214mA@3.3V</b>. The MCP73831 receives power from the V_USB line so it only is powered when <b>5V</b> is provided either over USB or the V_USB PTH pin. If applying voltage directly to the V_USB pin make sure it does not exceed <b>5.5V</b>.
 
 ## Pinout & Qwiic Connector
+
+<figure markdown>
+[![Photo highlighting through-hole pinouts.](./assets/Thing_Plus_C6-PTHs.jpg){ width="600"}](./assets/ "Click to enlarge")
+</figure>
 
 ### PTH Headers
 
@@ -51,13 +59,25 @@ There's a Qwiic connector on the board tied to the ESP32-C6's Low Power I<sup>2<
 
 There are two buttons on the board labeled <b>RESET</b> and <b>BOOT</b>. The RESET button is tied to the ESP32-C6's Enable (EN) pin and resets the module when pressed. The BOOT button puts the ESP32-C6 into bootloader mode when held down during power on or reset.
 
+<figure markdown>
+[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-Buttons.jpg){ width="600"}](./assets/ "Click to enlarge")
+</figure>
+
 ## LEDs
 
 This Thing Plus has three LEDs labeled <b>PWR</b>, <b>CHG</b>, and <b>STAT</b>. The red Power (PWR) LED indicates whenever the <b>3.3V</b> circuit is powered. The yellow Charge (CHG) LED indicates whenever the MCP73831 is charging a connected LiPo battery. The WS2812 RGB Status (STAT) LED connects the LED's Data In signal to IO23.
 
+<figure markdown>
+[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-LEDs.jpg){ width="600"}](./assets/ "Click to enlarge")
+</figure>
+
 ## Solder Jumpers
 
 There are nine solder jumpers on the Thing Plus - ESP32-C6 labeled <b>I<sup>2</sup>C</b>, <b>ALRT</b>, <b>SD_DET</b>, <b>MEAS</b>, <b>LP</b>, <b>SHLD</b>, <b>RGB</b>, <b>CHG</b>, and <b>PWR</b>. The table below outlines the jumpers' labels, default state, function, and any notes regarding their use:
+
+<figure markdown>
+[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-Jumpers.jpg){ width="600"}](./assets/ "Click to enlarge")
+</figure>
 
 <table>
     <tr>
