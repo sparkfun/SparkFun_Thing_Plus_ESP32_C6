@@ -24,7 +24,7 @@ The ESP32-C6 has 16 MB Flash memory along with 512 KB SRAM (high power)/ 16 KB S
 The Thing Plus ESP32-C6 includes several options for powering including USB-C, LiPo battery with on-board battery charging and monitoring circuits as well as direct power inputs.
 
 <figure markdown>
-[![Photo highlighting power components/pins.](./assets/Thing_Plus_C6-Power){ width="600"}](./assets/ "Click to enlarge")
+[![Photo highlighting power components/pins.](./assets/img/Thing_Plus_C6-Power.jpg){ width="600"}](./assets/ "Click to enlarge")
 </figure>
 
 ### USB-C Connector
@@ -38,7 +38,7 @@ The board has a 2-pin JST connector to connect a single-cell Lithium Ion (LiPo) 
 ## Pinout & Qwiic Connector
 
 <figure markdown>
-[![Photo highlighting through-hole pinouts.](./assets/Thing_Plus_C6-PTHs.jpg){ width="600"}](./assets/ "Click to enlarge")
+[![Photo highlighting through-hole pinouts.](./assets/img/Thing_Plus_C6-PTHs.jpg){ width="600"}](./assets/ "Click to enlarge")
 </figure>
 
 ### PTH Headers
@@ -60,7 +60,7 @@ There's a Qwiic connector on the board tied to the ESP32-C6's Low Power I<sup>2<
 There are two buttons on the board labeled <b>RESET</b> and <b>BOOT</b>. The RESET button is tied to the ESP32-C6's Enable (EN) pin and resets the module when pressed. The BOOT button puts the ESP32-C6 into bootloader mode when held down during power on or reset.
 
 <figure markdown>
-[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-Buttons.jpg){ width="600"}](./assets/ "Click to enlarge")
+[![Photo highlighting solder jumpers.](./assets/img/Thing_Plus_C6-Buttons.jpg){ width="600"}](./assets/ "Click to enlarge")
 </figure>
 
 ## LEDs
@@ -68,7 +68,7 @@ There are two buttons on the board labeled <b>RESET</b> and <b>BOOT</b>. The RES
 This Thing Plus has three LEDs labeled <b>PWR</b>, <b>CHG</b>, and <b>STAT</b>. The red Power (PWR) LED indicates whenever the <b>3.3V</b> circuit is powered. The yellow Charge (CHG) LED indicates whenever the MCP73831 is charging a connected LiPo battery. The WS2812 RGB Status (STAT) LED connects the LED's Data In signal to IO23.
 
 <figure markdown>
-[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-LEDs.jpg){ width="600"}](./assets/ "Click to enlarge")
+[![Photo highlighting solder jumpers.](./assets/img/Thing_Plus_C6-LEDs.jpg){ width="600"}](./assets/ "Click to enlarge")
 </figure>
 
 ## Solder Jumpers
@@ -76,7 +76,7 @@ This Thing Plus has three LEDs labeled <b>PWR</b>, <b>CHG</b>, and <b>STAT</b>. 
 There are nine solder jumpers on the Thing Plus - ESP32-C6 labeled <b>I<sup>2</sup>C</b>, <b>ALRT</b>, <b>SD_DET</b>, <b>MEAS</b>, <b>LP</b>, <b>SHLD</b>, <b>RGB</b>, <b>CHG</b>, and <b>PWR</b>. The table below outlines the jumpers' labels, default state, function, and any notes regarding their use:
 
 <figure markdown>
-[![Photo highlighting solder jumpers.](./assets/Thing_Plus_C6-Jumpers.jpg){ width="600"}](./assets/ "Click to enlarge")
+[![Photo highlighting solder jumpers.](./assets/img/Thing_Plus_C6-Jumpers.jpg){ width="600"}](./assets/ "Click to enlarge")
 </figure>
 
 <table>
