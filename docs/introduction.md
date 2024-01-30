@@ -1,8 +1,34 @@
-The SparkFun Thing Plus - ESP32-C6 adds a powerful wireless development option to SparkFun's popular Thing Plus footprint. This Thing Plus board features the ESP32-C6 WROOM-1-N16 module from espressif<sup>&trade;</sup>. It includes a LiPo battery charger and fuel gauge, &micro;SD card slot, an addressable LED and more. The Thing Plus footprint is Feather-compatible and breaks out all of the ESP32-C6's 23 GPIO pins to 0.1"-spaced PTH headers. The board also has a USB-C connector for primary power and programming, 2-pin JST connector for a LiPo battery, and a Qwiic connector to integrate it into SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic). 
+---
+icon: material/book-open-page-variant
+---
+
+<div class="grid cards desc" markdown>
+
+-    <a href="https://www.sparkfun.com/products/23618">
+    **SparkFun LTE Stick - LARA-R6**<br>
+    **SKU:** DEV-22924
+
+    ---
+
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/0/8/5/DEV-22924-Thing-Plus-ESP32-C6-Feature.jpg)
+    </figure></a>
+
+
+
+-    The SparkFun Thing Plus - ESP32-C6 adds a powerful wireless development option to SparkFun's popular Thing Plus footprint. This Thing Plus board features the ESP32-C6 WROOM-1-N16 module from espressif<sup>&trade;</sup>. It includes a LiPo battery charger and fuel gauge, &micro;SD card slot, an addressable LED and more. The Thing Plus footprint is Feather-compatible and breaks out all of the ESP32-C6's 23 GPIO pins to 0.1"-spaced PTH headers. The board also has a USB-C connector for primary power and programming, 2-pin JST connector for a LiPo battery, and a Qwiic connector to integrate it into SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic).
+
+    The ESP32-C6 SoC is built around a RISC-V single-core processor with 16 MB flash memory with an integrated wireless stack. The wireless stack supports 2.4 GHz WiFi 6, Bluetooth<sup>&reg;</sup> 5.3, Zigbee and Thread (802.15.4) and uses an on-board PCB antenna. The ESP32-C6 includes a wide range of peripheral options including SPI, UART, LPUART, I<sup>2</sup>C, I<sup>2</sup>S, LED PWM, USB Serial/JTAG controller, ADC and more. Many of these peripherals can be mapped to any GPIO pin though some are tied to specific pins. 
+
+    <center>
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22924){ .md-button .md-button--primary }
+    </center>
+
+</div>
 
 ## Required Materials
 
-To follow along with this guide you will need a USB-C cable to connect the dev board to your computer: 
+To follow along with this guide you will need at least one USB-C cable to connect the dev board to your computer: 
 
 <div class="grid cards" markdown>
 
@@ -198,7 +224,7 @@ We designed this board for integration into SparkFun's Qwiic connect system.  Cl
 <table>
   <tr>
    <td>
-   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/images/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
+   <div style="text-align: center"><a href="https://www.sparkfun.com/qwiic"><img src="../assets/img/Qwiic-registered-updated.png" alt="Qwiic Connect System" title="Click to learn more about the Qwiic Connect System!"></a></div>
    </td>
   </tr>
   <tr>

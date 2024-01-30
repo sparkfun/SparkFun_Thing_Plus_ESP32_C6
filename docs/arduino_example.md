@@ -4,9 +4,9 @@ icon: simple/arduino
 
 Now that we've installed the espressif boards package in Arduino, it's time to upload our first sketch to make sure everything is working properly.
 
-## Example 1 - Blink & Hello World
+## Status LED Cycle
 
-This basic example blinks the blue STAT LED on the board and also prints out "Hello World" over the USB serial connection. Copy the code below into a blank sketch or download the example from the [GitHub Repository]().
+
 
 !!! note "USB CDC On Boot Settings"
 
@@ -14,6 +14,4 @@ This basic example blinks the blue STAT LED on the board and also prints out "He
 
     With either setting, <code>Serial1</code> is available and refers to the UART1 bus (default pins are 4 and 5).
 
-Select the board (SparkFun ESP32-C6 Thing Plus) and Port and click "Upload". After uploading you should see the STAT LED on the board blinking every second.
-
-Now that we've installed the espressif boards package in Arduino, it's time to upload our first sketch to make sure everything is working properly.
+Select the board (SparkFun Pocket Dev ESP32-C6 or ESP32-C6 Module until the Thing Plus is added to the boards package) and Port and click "Upload". After uploading you should see the STAT LED on the board cycling through colors.
