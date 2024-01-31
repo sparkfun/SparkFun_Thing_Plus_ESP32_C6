@@ -6,7 +6,7 @@ Now that we're familiar with the hardware on this Thing Plus board, it's time to
 
 ## Basic USB Assembly
 
-Basic assembly of the Thing Plus ESP32-C only requires a USB-C cable connecting the board to a computer. Just plug the cable into the USB-C connector like the photo below shows and move on to the Software Setup section. 
+Basic assembly of the Thing Plus ESP32-C only requires a USB-C cable connecting the board to a computer. Just plug the cable into the USB-C connector like the photo below shows and you should see the RGB LED cycling through rainbow colors. From here, we can move on to installing the espressif boards package in Arduino and uploading code.
 
 <figure markdown>
 [![Photo of simple USB assembly.](./assets/img/Thing_Plus_C6-USB_Assembly.jpg){ width="600"}](./assets/img/Thing_Plus_C6-USB_Assembly.jpg "Click to enlarge")    
