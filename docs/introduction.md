@@ -4,8 +4,8 @@ icon: material/book-open-page-variant
 
 <div class="grid cards desc" markdown>
 
--    <a href="https://www.sparkfun.com/products/23618">
-    **SparkFun LTE Stick - LARA-R6**<br>
+-    <a href="https://www.sparkfun.com/products/22924">
+    **SparkFun Thing Plus - ESP32-C6**<br>
     **SKU:** DEV-22924
 
     ---
@@ -16,7 +16,7 @@ icon: material/book-open-page-variant
 
 
 
--    The SparkFun Thing Plus - ESP32-C6 adds a powerful wireless development option to SparkFun's popular Thing Plus footprint. This Thing Plus board features the ESP32-C6 WROOM-1-N16 module from espressif<sup>&trade;</sup>. It includes a LiPo battery charger and fuel gauge, &micro;SD card slot, an addressable LED and more. The Thing Plus footprint is Feather-compatible and breaks out all of the ESP32-C6's 23 GPIO pins to 0.1"-spaced PTH headers. The board also has a USB-C connector for primary power and programming, 2-pin JST connector for a LiPo battery, and a Qwiic connector to integrate it into SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic).
+-    The SparkFun Thing Plus - ESP32-C6 adds a powerful wireless development option to SparkFun's popular Thing Plus footprint. This Thing Plus board features the ESP32-C6 WROOM-1-N16 module from espressif<sup>&trade;</sup>. It includes a LiPo battery charger and fuel gauge to charge and monitor a battery connected to the on-bard 2-pin JST connector, &microSD card slot, an addressable LED and more. The board breaks out all of the ESP32-C6's 23 GPIO pins to a pair of 0.1"-spaced PTH headers on either side of the board. The board also has a USB-C connector for primary power and programming and a Qwiic connector to integrate it into SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic).
 
     The ESP32-C6 SoC is built around a RISC-V single-core processor with 16 MB flash memory with an integrated wireless stack. The wireless stack supports 2.4 GHz WiFi 6, Bluetooth<sup>&reg;</sup> 5.3, Zigbee and Thread (802.15.4) and uses an on-board PCB antenna. The ESP32-C6 includes a wide range of peripheral options including SPI, UART, LPUART, I<sup>2</sup>C, I<sup>2</sup>S, LED PWM, USB Serial/JTAG controller, ADC and more. Many of these peripherals can be mapped to any GPIO pin though some are tied to specific pins. 
 
@@ -28,7 +28,7 @@ icon: material/book-open-page-variant
 
 ## Required Materials
 
-To follow along with this guide you will need at least one USB-C cable to connect the dev board to your computer: 
+To follow along with this guide you will need at least one USB-C cable to connect the Thing Plus to your computer: 
 
 <div class="grid cards" markdown>
 
@@ -47,7 +47,7 @@ To follow along with this guide you will need at least one USB-C cable to connec
 -   <a href="https://www.sparkfun.com/products/15424">
     
     <figure markdown>
-    ![Reversible USB A to C Cable - 2m](https://cdn.sparkfun.com//assets/parts/1/7/4/8/7/18158-SparkFun_RedBoard_Plus-01.jpg)
+    ![Reversible USB A to C Cable - 2m](https://cdn.sparkfun.com/r/455-455/assets/parts/1/3/9/8/3/15424-Reversible_USB_A_to_C_Cable_-_2m-01.jpg)
     </figure>
     </a>
     ---
@@ -60,18 +60,6 @@ To follow along with this guide you will need at least one USB-C cable to connec
 You may also want to get a Qwiic cable or kit to connect the Thing Plus - ESP32-C6 to other Qwiic devices:
 
 <div class="grid cards" markdown>
-
--   <a href="https://www.sparkfun.com/products/17259">
-
-    <figure markdown>
-    ![Flexible Qwiic Cable - 100mm](https://cdn.sparkfun.com//assets/parts/1/6/2/4/6/17259-Flexible_Qwiic_Cable_-_100mm-01.jpg)
-    </figure>
-    </a>
-    ---
-    <a href="https://www.sparkfun.com/products/17259">
-    **Flexible Qwiic Cable - 100mm**<br>
-    PRT-17259
-    </a>
 
 -   <a href="https://www.sparkfun.com/products/17260">
     
@@ -107,11 +95,24 @@ You may also want to get a Qwiic cable or kit to connect the Thing Plus - ESP32-
     <a href="https://www.sparkfun.com/products/17261">**Flexible Qwiic Cable - Female Jumper (4-pin)**<br>
     CAB-17261
     </a>
+
+-   <a href="https://www.sparkfun.com/products/15081">
+
+    <figure markdown>
+    ![SparkFun Qwiic Cable Kit](https://cdn.sparkfun.com/r/455-455/assets/parts/1/3/4/3/1/15081-_01.jpg)
+    </figure>
+    </a>
+    ---
+    <a href="https://www.sparkfun.com/products/15081">
+    **SparkFun Qwiic Cable Kit**<br>
+    PRT-15081
+    </a>
+
 </div>
 
 ## Optional Materials
 
-The Thing Plus - ESP32-C6 includes a 2-pin JST connector and integrated charging circuit for an attached single-cell LiPo battery. Below are a few options for batteries we recommend for battery-powered applications:
+The Thing Plus - ESP32-C6 includes a 2-pin JST connector and integrated charging circuit for an attached single-cell LiPo battery. Below are a few options we recommend for battery-powered applications:
 
 <div class="grid cards" markdown align="center">
 
@@ -171,25 +172,25 @@ If you prefer a soldered connection or want to modify the solder jumpers on this
 -   <a href="https://www.sparkfun.com/products/116">
 
     <figure markdown>
-    ![Break Away Headers - Straight](https://cdn.sparkfun.com//assets/parts/1/0/6/00116-02-L.jpg)
+    ![SparkFun Qwiic Shield for Thing Plus](https://cdn.sparkfun.com/r/455-455/assets/parts/1/5/6/9/7/16790-SparkFun_Qwiic_Shield_for_Thing_Plus-05.jpg)
     </figure>
     </a>
     ---
-    <a href="https://www.sparkfun.com/products/116">
-    **Break Away Headers - Straight**<br>
-    PRT-00116
+    <a href="https://www.sparkfun.com/products/16790">
+    **SparkFun Qwiic Shield for Thing Plus**<br>
+    DEV-16790
     </a>
 
 -   <a href="https://www.sparkfun.com/products/9507">
     
     <figure markdown>
-    ![Soldering Iron - 30W (USE, 110V)](https://cdn.sparkfun.com//assets/parts/3/2/4/3/09507-01.jpg)
+    ![PINECIL - Smart Mini Portable Soldering Iron](https://cdn.sparkfun.com/r/455-455/assets/parts/2/4/2/7/0/23913-Pinecil-Smart-Mini-Portable-Soldering-Feature3.jpg)
     </figure>
     </a>
     ---
-    <a href="https://www.sparkfun.com/products/9507">
-    **Soldering Iron - 30W (USE, 110V)**<br>
-    TOL-09507
+    <a href="https://www.sparkfun.com/products/23913">
+    **PINECIL - Smart Mini Portable Soldering Iron**<br>
+    TOL-23913
     </a>
 
 -   <a href="https://www.sparkfun.com/products/9200">
@@ -283,6 +284,14 @@ Before getting started with this Hookup Guide, you may want to read through the 
     </figure>
     </a>
     <a href="https://learn.sparkfun.com/tutorials/112">**Serial Terminal Basics**
+    </a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/1107">
+    <figure markdown>
+    ![SparkFun Qwiic Shield for Thing Plus Hookup Guide](https://cdn.sparkfun.com/assets/learn_tutorials/1/1/0/7/Thing_Plus_Qwiic_Shield_Hookup_Guide-01.jpg)
+    </figure>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/1107">**SparkFun Qwiic Shield for Thing Plus Hookup Guide**
     </a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/664">

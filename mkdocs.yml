@@ -203,7 +203,7 @@ nav:
     - Software Setup: 
       - Arduino Setup: software_setup.md
       - Arduino Example: arduino_example.md
-  - Resources: resources_and_going_further.md
+  - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md
     - Submit Issues: github/file_issue.md

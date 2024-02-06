@@ -12,7 +12,7 @@ The ESP32-C6 WROOM1 module from espressif combines a powerful RISC-5 processor w
 [![Photo highlighting ESP32-C6 module.](./assets/img/Thing_Plus_C6-Module.jpg){ width="600"}](./assets/img/Thing_Plus_C6-Module.jpg "Click to enlarge")
 </figure>
 
-This development board uses the WROOM1 version of the C6 module which has slightly more computing power in exchange for lesser power efficiency. The ESP32-C6 features a 32-bit RISC-V single-core processor with an integrated wireless stack. The wireless stack is compatible with 2.4 GHz WiFi 6, Bluetooth<sup>&reg;</sup> 5.3, Zigbee and Thread (802.15.4) and uses an on-board PCB antenna. 
+This development board uses the WROOM1 version of the C6 module which has slightly more computing power in exchange for lesser power efficiency. The ESP32-C6 is built around a 32-bit RISC-V single-core processor with an integrated wireless stack. The wireless stack is compatible with 2.4 GHz WiFi 6, Bluetooth<sup>&reg;</sup> 5.3, Zigbee and Thread (802.15.4) and uses an on-board PCB antenna. 
 
 The module features a wide range of peripheral options including SPI, UART, LPUART, I<sup>2</sup>C, I<sup>2</sup>S, LED PWM, USB Serial/JTAG controller, ADC and more. Many of these peripherals can be mapped to any GPIO pin though some are tied to specific pins. This Thing Plus breaks out 21 pins from the module to a pair of 0.1"-spaced PTH headers.
 
@@ -40,6 +40,8 @@ The USB-C connector on the board acts as the primary serial interface for the ES
 The board has a 2-pin JST connector to connect a single-cell Lithium Ion (LiPo) battery for battery-powered applications. It also has an MCP73831 battery charger to charge an attached battery and a MAX17048 fuel gauge to monitor battery voltage levels over I<sup>2</sup>C. The charge rate is set to <b>214mA@3.3V</b>. The MCP73831 receives power from the V_USB line so it only is powered when <b>5V</b> is provided either over USB or the V_USB PTH pin. If applying voltage directly to the V_USB pin make sure it does not exceed <b>5.5V</b>.
 
 ## Pinout & Qwiic Connector
+
+Next up let's take a look at the Thing Plus pinout and Qwiic connector on this board.
 
 <figure markdown>
 [![Photo highlighting through-hole pinouts.](./assets/img/Thing_Plus_C6-PTHs.jpg){ width="600"}](./assets/img/Thing_Plus_C6-PTHs.jpg "Click to enlarge")
@@ -69,7 +71,7 @@ There are two buttons on the board labeled <b>RESET</b> and <b>BOOT</b>. The RES
 
 ## &micro;SD Card Slot
 
-This board also has a friction-fit &micro;SD card slot for users who need some more programming space on the Thing Plus - ESP32-C6. 
+This board also has a friction-fit &micro;SD card slot for users who need more storage space on the Thing Plus - ESP32-C6. 
 
 <figure markdown>
 [![Photo highlighting microSD card slot](./assets/img/Thing_Plus_C6-SD.jpg){ width="600"}](./assets/img/Thing_Plus_C6-SD.jpg "Click to enlarge")
@@ -90,6 +92,9 @@ This Thing Plus has three LEDs labeled <b>PWR</b>, <b>CHG</b>, and <b>STAT</b>. 
 <figure markdown>
 [![Photo highlighting solder jumpers.](./assets/img/Thing_Plus_C6-LEDs.jpg){ width="600"}](./assets/img/Thing_Plus_C6-LEDs.jpg "Click to enlarge")
 </figure>
+
+!!! note "RGB LED"
+    The board definition for the Thing Plus - ESP32-C6 sets IO23 to use espressif's `RGB_BUILTIN` code support. This automatically includes the necessary code to control an RGB LED easily when calling `RGB_BUILTIN`. Unfortunately, this means the RGB PTH pin (IO23) can run into code conflicts when users attempt to use it for another purpose. If you *really* need IO23 for something other than the RGB LED, you may need to modify the board definition files in the ESP32 Arduino boards package. Modifying these files is beyond the scope of this tutorial and is not supported by SparkFun.
 
 ## Solder Jumpers
 
@@ -116,12 +121,12 @@ There are nine solder jumpers on the Thing Plus - ESP32-C6 labeled <b>I<sup>2</s
         <td>ALRT</td>
         <td>CLOSED</td>
         <td>Ties the MAX17048's alert pin to IO11 for battery voltage monitoring</td>
-        <td>Open to isolate IO11 from the MAX17048's alert pin</td>
+        <td>Open to isolate IO11 from the MAX17048's alert pin if IO11 is needed for other uses</td>
     <tr>
         <td>SD_DET</td>
         <td>CLOSED</td>
         <td>Connects the &micro;SD card's card detection pin to IO19</td>
-        <td></td>
+        <td>Open to disable &micro;SD card detection or if IO19 is needed for other uses</td>
     </tr>
     <tr>
         <td>MEAS</td>
@@ -163,7 +168,7 @@ There are nine solder jumpers on the Thing Plus - ESP32-C6 labeled <b>I<sup>2</s
 
 ## Board Dimensions
 
-This board matches the Thing Plus footprint and measures 2.30" x 0.90" (58.42mm x 22.86mm) with four mounting holes that fit a [4-40 screw](https://www.sparkfun.com/products/10453).
+This board matches the Thing Plus footprint and measures 2.30" x 0.90" (58.42mm x 22.86mm) with four mounting holes that fit a [4-40 screw](https://www.sparkfun.com/products/10453) though the top two mounting holes are obstructed by the ESP32-C6 module.
 
 <figure markdown>
 [![Board dimensions.](./assets/board_files/Thing_Plus_ESP32_C6-Dimensions.png){ width="600"}](./assets/board_files/Thing_Plus_ESP32_C6-Dimensions.png "Click to enlarge")

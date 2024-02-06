@@ -6,7 +6,7 @@ Now that we've installed the espressif boards package in Arduino, it's time to u
 
 ## Blink RGB Example
 
-The ESP32 core includes an example for cycling an RGB LED like the one found on this Thing Plus so long as the board variant defines it as `RGB_BUILTIN` (which ours does). Navigate to the example by going to **File** > **Examples** > **ESP32** > **GPIO** > **BlinkRGB** like the screenshot below shows: 
+The ESP32 core includes integrated code support for easily controlling a WS2812 LED and an example demonstrating how to cycle an RGB LED like the one found on this Thing Plus so long as the board variant defines it as `RGB_BUILTIN`. The Thing Plus ESP32-C6 does define IO23 as `RBG_BUILTIN` so this example and all other code calling for the built-in RGB LED works for this board. Open the example by navigating to **File** > **Examples** > **ESP32** > **GPIO** > **BlinkRGB** like the screenshot below shows: 
 
 <figure markdown>
 [![Screenshot of selecing the Blink RGB example.](./assets/img/BlinkRGB_example.jpg){ width="600"}](./assets/img/BlinkRGB_example.jpg "Click to enlarge.")

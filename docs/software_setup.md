@@ -15,7 +15,9 @@ With the ESP32-C6 Thing Plus connected to our computer, it's time to set up the 
     
 To install the ESP32 boards package, open the Preferences menu by navigating to <b>File</b> > <b>Preferences</b>. Look at the bottom of the Preferences menu for "Additional boards manager URLS" and then copy this JSON link into that field:
 
-https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
+<code>
+    https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
+</code>
 
 Click "Ok" and then open the *Boards Manager* tool, search for "espressif ESP32" and install the latest alpha release (3.0.0-alpha2 or later). This install process may take some time so feel free to step away while it downloads and installs.
 
