@@ -14,7 +14,11 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/0/8/5/DEV-22924-Thing-Plus-ESP32-C6-Feature.jpg)
     </figure></a>
 
-
+    <center>
+    <article class="video_desc">
+    <iframe src=" https://www.youtube.com/embed/UqpQe8Y62ho" title="Product Showcase: SparkFun LTE Stick - LARA-R6" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    </center>
 
 -    The SparkFun Thing Plus - ESP32-C6 adds a powerful wireless development option to SparkFun's popular Thing Plus footprint. This Thing Plus board features the ESP32-C6 WROOM-1-N16 module from espressif<sup>&trade;</sup>. It includes a LiPo battery charger and fuel gauge to charge and monitor a battery connected to the on-bard 2-pin JST connector, &microSD card slot, an addressable LED and more. The board breaks out all of the ESP32-C6's 23 GPIO pins to a pair of 0.1"-spaced PTH headers on either side of the board. The board also has a USB-C connector for primary power and programming and a Qwiic connector to integrate it into SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic).
 
