@@ -12,7 +12,7 @@ The ESP32 core includes integrated code support for easily controlling a WS2812 
 [![Screenshot of selecing the Blink RGB example.](./assets/img/BlinkRGB_example.jpg){ width="600"}](./assets/img/BlinkRGB_example.jpg "Click to enlarge.")
 </figure>
 
-Select the board (SparkFun ESP32-C6 Qwiic Pocket or ESP32-C6 Dev Module until the Thing Plus is added to the espressif boards package) and Port and click "Upload". After uploading you should see the STAT LED on the board turn on full white, turn off, and then cycle through red, green, and blue repeatedly.
+Select the board (SparkFun Thing Plus - C6) and Port and click "Upload". After uploading you should see the STAT LED on the board turn on full white, turn off, and then cycle through red, green, and blue repeatedly.
 
 !!! note "USB CDC On Boot Settings"
 
